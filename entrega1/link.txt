@@ -1,2 +1,2 @@
-Nome completo: Gabriel Misao
-URL do trabalho online: https://SEU-SUBDOMINIO.SEUDOMINIO.COM/entrega1/
+Nome completo: Gabriel Misao Pinheiro Kaminise
+URL do trabalho online: https://dweb-entrega1.vercel.app/entrega1
