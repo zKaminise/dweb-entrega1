@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2% 0;
+  font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f2f5f8;
+  color: #222;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid #2456a6;
+  border-radius: 6px;
+  color: #fff;
+  background: #2456a6;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 1rem;
+}
