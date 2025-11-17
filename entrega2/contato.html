@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <title>Currículo de Fulano de Tal</title>
+</head>
+<body>
+  <header id="topo">
+    <h1>Contato</h1>
+    <nav>
+      <a href="index.html" class="btn" >Voltar à página principal</a>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="titulo-form">
+      <h2 id="titulo-form">Envie uma mensagem</h2>
+      <form action="mailto:tony.stark@starkcompany.com" method="post">
+        <div>
+          <label for="nome">Nome</label><br>
+          <input id="nome" name="nome" type="text" required>
+        </div>
+
+        <div>
+          <label for="email">E-mail</label><br>
+          <input id="email" name="email" type="email" required>
+        </div>
+
+        <div>
+          <label for="telefone">Telefone</label><br>
+          <input id="telefone" name="telefone" type="tel" placeholder="(00) 00000-0000">
+        </div>
+
+        <fieldset>
+          <legend>Você é um recrutador?</legend>
+          <input type="radio" id="recrutador-sim" name="recrutador" value="sim" required>
+          <label for="recrutador-sim">Sim</label>
+          <input type="radio" id="recrutador-nao" name="recrutador" value="nao">
+          <label for="recrutador-nao">Não</label>
+        </fieldset>
+
+        <div>
+          <label for="mensagem">Mensagem</label><br>
+          <textarea id="mensagem" name="mensagem" rows="6" cols="40" required></textarea>
+        </div>
+
+        <div>
+          <button type="submit" class="btn" >Enviar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="index.html" class="btn" >Voltar para a página principal</a></p>
+  </footer>
+</body>
+</html>

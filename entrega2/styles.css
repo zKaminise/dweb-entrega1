@@ -1,0 +1,154 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2% 0;
+  font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f2f5f8;
+  color: #222;
+}
+
+main {
+  background: #fff;
+  border-radius: 10px;             
+  border: 1px solid #e5e7eb;       
+  padding: 24px;                   
+  overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2456a6; 
+  margin-top: 0.6em;
+  margin-bottom: 0.3em;
+}
+
+nav {
+  margin: 12px 0;                  
+}
+
+nav a {
+  display: inline-block;           
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #2456a6;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+
+nav a:hover,
+nav a:focus {
+  border-color: #2456a6;
+  background: #eaf0fb;
+  outline: none;
+}
+
+ul, ol {
+  padding-left: 22px;
+}
+
+figure.foto {
+  float: right;      
+  width: 140px;
+  margin: 0 0 12px 16px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid #2456a6;
+  border-radius: 6px;
+  color: #fff;
+  background: #2456a6;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #1c427f;
+  border-color: #1c427f;
+}
+
+#topo {
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+main > section {
+  margin-bottom: 20px;
+}
+
+section address a {
+  text-decoration: underline;
+}
+
+a[target="_blank"] {
+  cursor: alias;            
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12px 0;
+}
+
+th, td {
+  border: 1px solid #d1d5db;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+thead th {
+  background: #f6f8fc;
+}
+
+form label {
+  font-weight: 600;
+  display: inline-block;
+  margin: 8px 0 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  box-sizing: border-box; 
+  padding: 8px 10px;
+  border: 1px solid #cfd5dc;
+  border-radius: 6px;
+  font: inherit;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #bdd0ff;
+  border-color: #2456a6;
+}
+
+fieldset {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin: 10px 0;
+}
+
+legend {
+  padding: 0 6px;
+  color: #2456a6;
+  font-weight: 600;
+}
+
+footer {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid #e5e7eb;
+  color: #444;
+  font-size: 0.95rem;
+}
